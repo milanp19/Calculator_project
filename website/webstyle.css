@@ -1,0 +1,91 @@
+div{
+    text-align: center;
+    color: rgb(96, 104, 107);
+    padding-top: 5%;
+    font-size: 32px;
+}
+
+p{
+    text-align: center;
+    font-size: 64px;
+}
+
+.typewriter{
+    display: inline-block;
+    text-align: center;
+    margin-left: 20%;
+}
+.typewriter p {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  img{
+    padding: 32px, auto;
+    width: 500px;
+    height: 500px;
+    padding-top: 64px;
+    display: block;
+
+  }
+  .info{
+    width: 60%;
+    padding-left: 20%;
+    padding-top: 7%;
+  }
+  .button1, .button2{
+    width: fit-content;
+    text-align: center;
+    margin-left: 20%;
+    border-radius: 25px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    font-size: 28px;
+
+  }
+
+  .button1{
+    margin-left: 30px;
+    background-color: hwb(268 8% 14% / 0.853);
+  }
+  .button2{
+    background-color: hwb(268 8% 14% / 0.853);
+  }
+
+  .imgcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .buttoncontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  a{ 
+    color: white;
+    text-decoration: none;
+  }
