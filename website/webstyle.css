@@ -5,7 +5,7 @@ body{
   width: 100%;
   display: grid;
   place-items: start;
-  gap: 100px;
+  gap: 50px;
 }
 
 div{
