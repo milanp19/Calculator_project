@@ -7,7 +7,7 @@ body{
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: clamp(0px, 100px, 100px);
+  gap: 100px;
 }
 
 div{
