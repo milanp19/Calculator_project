@@ -20,8 +20,8 @@ div{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80vw;
-    height: 50vh;
+    width: 50vw;
+    aspect-ratio: 1 / 1;
     padding: 20px;
     border-radius: 25px;
     background-color: lightgrey;
