@@ -1,28 +1,39 @@
 body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 16px
 }
-ol{
-    font-size: 28px;
+
+li{
+    font-size: clamp(16px, 32px, 40px);
+    line-height: 1.5;
+    line-break: auto;
 }
 
 div{
-    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
     padding: 20px;
     border-radius: 25px;
     background-color: lightgrey;
 }
 
 .back{
-    margin-left: 45%;
     background-color: hwb(268 8% 14% / 0.853);
     text-align: center;
     width: fit-content;
-    border-radius: 25px;
+    border-radius: 16px;
     padding: 0.5em;
-    margin-top: 0.5em;
-    font-size: 25px;
+    font-size: 24px;
 
 }
 
